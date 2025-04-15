@@ -1,0 +1,31 @@
+@use "fonts";
+@use "variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ysabeau Office", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 100vh;
+  background-image: url("../img/background_image.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: $color-violet;
+}
+
+h1 {
+  font-family: "Codystar", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: deepskyblue;
+}
