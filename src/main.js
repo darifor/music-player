@@ -1,30 +1,30 @@
 import '../sass/style.scss'
 
 const songs = [
-  {
-      title: "Flying Free",
-      author: "John Doe",
-      src: "./audio/song1.mp3",
-      img: "./img/cover1.png",
-  },
-  {
-      title: "Down Under",
-      author: "Alex Smith",
-      src: "./audio/song2.mp3",
-      img: "./img/cover2.png",
-  },
-  {
-      title: "That's All",
-      author: "Lucy Pevensie",
-      src: "./audio/song3.mp3",
-      img: "./img/cover3.png",
-  },
-  {
-      title: "Telephone Line",
-      author: "Alicia Keys",
-      src: "./audio/song4.mp3",
-      img: "./img/cover4.png",
-  },
+    {
+        title: "Flying Free",
+        author: "John Doe",
+        src: "./audio/song1.mp3",
+        img: "./img/cover1.png",
+    },
+    {
+        title: "Down Under",
+        author: "Alex Smith",
+        src: "./audio/song2.mp3",
+        img: "./img/cover2.png",
+    },
+    {
+        title: "That's All",
+        author: "Lucy Pevensie",
+        src: "./audio/song3.mp3",
+        img: "./img/cover3.png",
+    },
+    {
+        title: "Telephone Line",
+        author: "Alicia Keys",
+        src: "./audio/song4.mp3",
+        img: "./img/cover4.png",
+    },
 ];
 
 let currentSongIndex = 0;
