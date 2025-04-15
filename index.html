@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/music-player/assets/favicon-D_7dxjIl.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e5e6abe59a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Music Player</title>
+    <script type="module" crossorigin src="/music-player/assets/index-DAsAD9Px.js"></script>
+    <link rel="stylesheet" crossorigin href="/music-player/assets/index-CI_YF5Nb.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <h1>music player</h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__container">
+        <img
+          id="cover"
+          src="/music-player/assets/cover1-wkT1K7FD.png"
+          class="main__image"
+          alt="John Doe"
+          width="300px"
+        />
+        <div class="main__info">
+          <h2 id="title">Flying Free</h2>
+          <p id="author">John Doe</p>
+        </div>
+        <div class="main__display">
+          <div class="main__display-span">
+            <span id="currentTime">0:00</span>
+            <span id="duration">0:00</span>
+          </div>
+          <input type="range" id="progressBar" min="0" max="100" value="0" />
+        </div>
+        <div class="main__controls">
+          <button id="prevButton" class="step" title="previous song">
+            <i class="fa-solid fa-backward-step"></i>
+          </button>
+          <button id="playButton" class="play" title="play">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button id="nextButton" class="step" title="next song">
+            <i class="fa-solid fa-forward-step"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
